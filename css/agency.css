@@ -247,9 +247,10 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  height: 100vh;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
@@ -269,6 +270,10 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
+  header {
+    text-align: left;
+  }
+
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -814,7 +819,6 @@ body {
   width: 66px;
   margin-top: -23px;
 }
-
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
