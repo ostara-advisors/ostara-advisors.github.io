@@ -15,7 +15,8 @@ body {
   color: #fed136;
 }
 .service-logo {
-  color: #548235;
+  width: 100px;
+  fill: #548235;
 }
 p {
   font-size: 14px;
