@@ -14,6 +14,9 @@ body {
 .text-primary {
   color: #fed136;
 }
+.service-logo {
+  color: #548235;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -309,6 +312,8 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .focus-areas {
