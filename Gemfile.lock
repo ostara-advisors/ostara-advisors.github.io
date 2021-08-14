@@ -264,6 +264,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sitemap
   kramdown-parser-gfm
   minima (~> 2.0)
 
