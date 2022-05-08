@@ -341,6 +341,48 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
+
+#portfolio .portfolio-combined-blurb {
+  padding: 20px;
+  background: white;
+  margin: 0 15px;
+}
+
+#portfolio .portfolio-combined-logos {
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 190px;
+  margin: 0 15px;
+}
+
+#portfolio .portfolio-combined-logo {
+  max-width: 115px;
+  display: inline-block;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-combined-blurb {
+    padding: 20px 0 20px 20px;
+    background: white;
+    margin: 0 0 0 43px;
+  }
+
+  #portfolio .portfolio-combined-logos {
+    background: white;
+    padding-left:  0;
+    display: flex;
+    align-items: center;
+    height: 190px;
+    margin: auto;
+  }
+
+  #portfolio .portfolio-combined-logo {
+    max-width: 122px;
+    display: inline-block;
+  }
+}
+
 #portfolio .transactions-subheading {
   font-style: normal;
   font-size: 2rem;
@@ -410,7 +452,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 16px;
   margin: 10px 0 0 0;
   text-align: left;
