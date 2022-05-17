@@ -634,12 +634,15 @@ section h3.section-subheading {
 }
 .team-member {
   text-align: center;
-  margin-bottom: 50px;
 }
 .team-member img {
-  width: 100%;
   margin: 0 auto;
   border: 7px solid white;
+}
+@media (min-width: 768px) {
+  .team-member img {
+    width: 100%;
+  }
 }
 .team-member h4 {
   margin-top: 25px;
@@ -900,11 +903,11 @@ section#about-us ul {
   margin: 30px 0 0;
 }
 
-section#leadership p {
+section#team p {
   margin: 30px 0;
 }
 
-section#leadership .role {
+section#team .role {
   margin: 10px 0;
 }
 
